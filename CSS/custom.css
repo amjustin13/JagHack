@@ -1,0 +1,49 @@
+body {
+  position: relative;
+  background-color: #F4E9D3;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+#info, #about, #FAQ, #sponsors, #register{
+  padding:30px 0 20px 0;
+  height:100%;
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+  min-height: 700px}
+
+h1 {
+  color: #ff6e4a;
+}
+h2  {
+  color: #615d54;
+}
+
+h3 {
+  color: #869653;
+}
+
+p {
+  color: #615d54;
+}
+
+.navbar-brand {
+  padding-left: 50px;
+}
+
+.jumbotronImage-large{
+  width: 786px;
+  height: 679px;
+}
+
+.jumbotronImage-large{
+  width: 786px;
+  height: 679px;
+}
+
+.jumbotron {
+  height: 679px;
+  color: white;
+  text-shadow: #444 0 1px 1px;
+  background:transparent;
+}
