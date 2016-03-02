@@ -40,22 +40,14 @@ p {
   padding-left: 50px;
 }
 
-.jumbotronImage-large{
-  width: 786px;
-  height: 679px;
-}
-
-.jumbotronImage-large{
-  width: 786px;
-  height: 679px;
-}
 
 .jumbotron {
-  height: 679px;
+  height: 100%;
   color: white;
   text-shadow: #444 0 1px 1px;
   background:transparent;
 }
+
 
 .btn-custom {
   background-color: #869653;
@@ -64,4 +56,12 @@ p {
 .btn, .btn-custom a:link {
     color: #fff;
 
+}
+
+.time {
+  text-align: right;
+}
+
+.event {
+  text-align: left;
 }
