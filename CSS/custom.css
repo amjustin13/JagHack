@@ -62,9 +62,26 @@ p {
 }
 
 .time {
-  text-align: right;
+  font-weight: bold;
 }
 
-.event {
-  text-align: left;
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .text-right-md {
+        text-align: right;
+    }
+    .text-left-md {
+        text-align: left;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .text-right-lg {
+        text-align: right;
+    }
+    .text-left-lg {
+        text-align: left;
+    }
 }
