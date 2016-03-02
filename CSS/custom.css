@@ -65,6 +65,16 @@ p {
   font-weight: bold;
 }
 
+/* Small devices */
+@media (min-width: 768px) {
+    .text-right-md {
+        text-align: right;
+    }
+    .text-left-md {
+        text-align: left;
+    }
+}
+
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
